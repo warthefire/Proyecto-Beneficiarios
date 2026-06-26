@@ -1,0 +1,8 @@
+.container { padding: 20px; font-family: Arial, sans-serif; max-width: 720px; margin: 0 auto; background: linear-gradient(145deg, var(--surface), var(--surface-muted)); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06); }
+.form { display: flex; gap: 10px; margin-bottom: 20px; background: var(--surface-muted); padding: 14px; border-radius: 12px; border: 1px solid var(--border); }
+.input { flex: 1; padding: 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--foreground); }
+.button { padding: 8px 15px; background-color: var(--primary); color: white; border: none; cursor: pointer; border-radius: 8px; }
+.button:hover { background-color: var(--primary-dark); }
+.buttonDelete { background-color: var(--danger); margin-left: 10px; }
+.buttonDelete:hover { background-color: var(--danger-dark); }
+.card { display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--border); padding: 12px 15px; margin-bottom: 10px; border-radius: 10px; background: var(--surface-muted); }
